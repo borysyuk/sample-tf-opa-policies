@@ -7,5 +7,5 @@ policy "random_decision" {
 
 policy "random7" {
   enabled           = true
-  enforcement_level = "hard"
+  enforcement_level = "hard-mandatory"
 }
