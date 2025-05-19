@@ -13,7 +13,7 @@ policy "instance_types" {
 
 policy "resource_tags" {
   enabled           = true
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 }
 
 policy "whitelist_ami" {
@@ -28,5 +28,5 @@ policy "workspace_name" {
 
 policy "workspace_tags" {
   enabled           = true
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
