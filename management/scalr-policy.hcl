@@ -28,5 +28,5 @@ policy "workspace_name" {
 
 policy "workspace_tags" {
   enabled           = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
