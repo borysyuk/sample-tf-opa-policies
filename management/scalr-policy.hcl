@@ -23,7 +23,7 @@ policy "whitelist_ami" {
 
 policy "workspace_name" {
   enabled           = true
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "workspace_tags" {
